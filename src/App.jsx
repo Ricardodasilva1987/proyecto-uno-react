@@ -1,16 +1,12 @@
-import Navbar from "./Navbar";
+import Navbar from "./components/layout/navbar/Navbar";
+
 
 function App() {
-  const funcionSaludar = () => {
-    alert("Hola con un alert");
-  };
-  return (
-    <div>
-      <Navbar />
-      <h1>Hola Ricardo!</h1>
-      <button onClick={funcionSaludar}> SALUDAR</button>
-    </div>
-  );
+  return <div>
+    <Navbar/>
+  </div>;
 }
 
 export default App;
+
+export de
